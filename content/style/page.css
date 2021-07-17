@@ -1,0 +1,168 @@
+
+
+body {
+    padding-top:60px;
+    margin: auto;
+}
+
+.fake-table > div, ul.spread {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style-type: none;
+}
+
+.story {
+    padding-top: 15px;
+}
+
+ul.spread {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.fake-table > div > div, ul.spread li {
+    margin: 15px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* choose a light or dark theme to add to the body tag. */
+.dark-theme {
+    background-color: #181414;
+    color: #fcfbfb;   
+}
+
+.light-theme {
+    background-color: white;
+    color: black;    
+}
+
+.beige-theme {
+    background-color: #f9f1e6;
+    color: black;    
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+        max-width: 975px;
+}
+
+/* ******** */
+
+
+/*
+super-font
+.headline
+.kicker
+.subhead
+.label
+.label-text
+.credit
+
+sub-font
+.date
+.body-text
+.note
+*/
+
+
+
+.super-font, h1, h2, h3, .label + p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sub-font, p, ul, li {
+    font-family: 'Lora', serif;
+}
+
+.headline, h1 {
+    font-size: 3rem;
+    line-height: 0.9;
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.body-text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+
+}
+
+.kicker {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.credit  {
+    font-size: 1.2rem;
+    line-height: 0.75;
+    margin-top: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 0.25;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.intro {
+    line-height: 1;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.subhead, h2 {
+    font-size: 2rem;
+    line-height: 0.9;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.label {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.label-text, .label + p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.note, p.img + p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.caption  {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}

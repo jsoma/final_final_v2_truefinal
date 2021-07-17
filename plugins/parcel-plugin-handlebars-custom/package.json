@@ -1,0 +1,34 @@
+{
+  "name": "parcel-plugin-handlebars-custom",
+  "version": "1.0.0",
+  "description": "Parcel plugin to compile handlebars layouts templates.",
+  "license": "MIT",
+  "homepage": "https://github.com/jaridmargolin/parcel-plugin-handlebars#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaridmargolin/parcel-plugin-handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaridmargolin/parcel-plugin-handlebars/issues"
+  },
+  "keywords": [
+    "parcel",
+    "plugin",
+    "handlebars",
+    "hbs",
+    "layouts",
+    "asset",
+    "build"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "cosmiconfig": "^6.0.0",
+    "front-matter": "^3.0.2",
+    "globby": "^10.0.1",
+    "handlebars": "^4.2.0",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-wax": "^6.1.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
